@@ -12,23 +12,32 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
           label: '고대',
           children: [
             {
+              value: 'nadara',
+              label: '나다라 화산',
+            }, {
+              value: 'swamp',
+              label: '식인 늪',
+            }, {
               value: 'zer_jung',
               label: '제르베리야(정)',
-            },
+            }, 
           ],
         }, {
           value: 'present',
           label: '현대',
           children: [
             {
-              value: 'beast_castle',
-              label: '마수성',
+              value: 'moon',
+              label: '달그림자 숲',
             }, {
               value: 'dogma',
               label: '도그마의 탑',
             }, {
-              value: 'moon',
-              label: '달그림자 숲',
+              value: 'beast_castle',
+              label: '마수성',
+            }, {
+              value: 'miglance',
+              label: '미글랜스 성',
             }
           ],
         }, {
@@ -36,9 +45,12 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
           label: '미래',
           children: [
             {
+              value: 'industry',
+              label: '공업도시 폐허',
+            }, {
               value: 'mayu',
               label: '마유의 꿈 의식',
-            },
+            }
           ],
         }
       ];
