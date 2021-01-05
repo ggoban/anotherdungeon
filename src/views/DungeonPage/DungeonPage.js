@@ -44,7 +44,7 @@ function DungeonPage({dungeon, language}) {
                                         {map.kor_rare ? (language === "kor" ? map.kor_rare : map.jap_rare) : "레어맵 없음"}
                                     </b>
                                 </div>
-                                <img alt={map.kor} style={{ width: "90%"}} src={`/images/map/${dungeon.name}-${map.id}.jpg`}/>
+                                <img alt={map.kor} style={{ width: "90%"}} src={`images/map_photo/${dungeon.name}-${map.id}.jpg`}/>
                             </div>
                         ))}
                     </div>
@@ -56,7 +56,7 @@ function DungeonPage({dungeon, language}) {
                             {dungeon.job === null ? (<Title level={2}>없음</Title>) : (dungeon.job.map(job => (
                                 <Col span={4}>
                                 <Tooltip title={job}>
-                                    <img alt={job} style={{ width: "100%"}} src={`/images/character/${job}.png`}/>
+                                    <img alt={job} style={{ width: "100%"}} src={`images/character_base/${job}.png`}/>
                                 </Tooltip>
                                 </Col>
                             )))}
@@ -67,7 +67,7 @@ function DungeonPage({dungeon, language}) {
                             {dungeon.statusup === null ? (<Title level={2}>없음</Title>) : (dungeon.statusup.map(job => (
                                 <Col span={4}>
                                 <Tooltip title={job}>
-                                    <img alt={job} style={{ width: "100%"}} src={`/images/character/${job}.png`}/>
+                                    <img alt={job} style={{ width: "100%"}} src={`images/character_base/${job}.png`}/>
                                 </Tooltip>
                                 </Col>
                             )))}
@@ -77,10 +77,10 @@ function DungeonPage({dungeon, language}) {
                             <div>
                                 <Divider orientation="center" style={{fontSize:"1.4rem"}}>배수 캐릭터</Divider>
                                 <Row justify="center">                        
-                                    {dungeon.multiple.map(job => (
+                                    {dungeon.multiple.character.map(job => (
                                         <Col span={4}>
-                                        <Tooltip title={job}>
-                                            <img alt={job} style={{ width: "100%"}}src={`/images/character/${job}.png`}/>
+                                        <Tooltip title={`${job.name} : ${job.rate}`}>
+                                            <img alt={job.name} style={{ width: "100%"}}src={`images/character_base/${job.name}.png`}/>
                                         </Tooltip>
                                         </Col>
                                     ))}

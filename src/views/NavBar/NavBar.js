@@ -23,6 +23,21 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             {
               value: 'beast_castle',
               label: '마수성',
+            }, {
+              value: 'dogma',
+              label: '도그마의 탑',
+            }, {
+              value: 'moon',
+              label: '달그림자 숲',
+            }
+          ],
+        }, {
+          value: 'future',
+          label: '미래',
+          children: [
+            {
+              value: 'mayu',
+              label: '마유의 꿈 의식',
             },
           ],
         }
@@ -40,20 +55,22 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
     }
 
     return (
-        <Row justify="center">
-            <Cascader
-                defaultValue={['ancient', 'zer_jung']}
-                options={options}
-                onChange={HandleSelect} 
-                allowClear={false}
-                style={{margin:"1rem"}}
-            />
-            <Button type="primary" onClick={handleSaveClick} style={{margin:"1rem"}}>Download</Button>
-            <Radio.Group onChange={HandleChange} defaultValue="kor" style={{margin:"1rem"}}>
-              <Radio.Button value="kor">글로벌판</Radio.Button>
-              <Radio.Button value="jap">일본판</Radio.Button>
-            </Radio.Group>
-        </Row>
+        <div>
+          <Row justify="center">
+              <Cascader
+                  defaultValue={['ancient', 'zer_jung']}
+                  options={options}
+                  onChange={HandleSelect} 
+                  allowClear={false}
+                  style={{margin:"1rem"}}
+              />
+              <Button type="primary" onClick={handleSaveClick} style={{margin:"1rem"}}>Download</Button>
+              <Radio.Group onChange={HandleChange} defaultValue="kor" style={{margin:"1rem"}}>
+                <Radio.Button value="kor">글로벌판</Radio.Button>
+                <Radio.Button value="jap">일본판</Radio.Button>
+              </Radio.Group>
+          </Row>
+        </div>
     )
 }
 

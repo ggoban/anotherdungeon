@@ -1,10 +1,16 @@
 import * as types from "../_actions/types";
 import present_beast_castle from "../data/present_beast_castle.json";
 import ancient_zer_jung from "../data/ancient_zer_jung.json";
+import future_mayu from "../data/future_mayu.json";
+import present_dogma from "../data/present_dogma.json"
+import present_moon from "../data/present_moon.json"
 
 const dungeons = {
     present_beast_castle: present_beast_castle,
-    ancient_zer_jung: ancient_zer_jung
+    ancient_zer_jung: ancient_zer_jung,
+    future_mayu: future_mayu,
+    present_dogma: present_dogma,
+    present_moon: present_moon
 }
 
 const initialState = {

@@ -1,0 +1,58 @@
+{
+    "name": "달그림자 숲",            
+    "reward": "명",
+    "hard": {
+        "level": 21,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 58,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "입구",
+        "jap": "入口"
+    }, {
+        "id":2,
+        "kor": "짐승 길",
+        "jap": "獣道",
+        "kor_rare": "가시밭 길",
+        "jap_rare": "茨道"
+    }, {
+        "id":3,
+        "kor": "산책로",
+        "jap": "自然歩道",
+        "kor_rare": "신비한 길",
+        "jap_rare": "神秘歩道"
+    }],
+    "job": ["로키드", "아자미", "츠바메", "뮬루스", "츠키하", "유키노"],
+    "statusup": null,
+    "monster": [{
+        "id":1,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["베기","화"],
+        "strong": ["풍"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":4,
+        "weak": null,
+        "strong": null,
+        "description": "FEAR"
+    }],
+    "boss": {
+        "weak": ["화"],
+        "strong": ["풍"],
+        "description": ["특이사항 없음"] 
+    },
+    "etc": ["없음"]
+}
