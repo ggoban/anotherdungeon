@@ -1,0 +1,73 @@
+{
+    "name": "마수성",            
+    "reward": "명",
+    "hard": {
+        "level": 64,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 72,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "전방 호위탑",
+        "jap": "前衛塔"
+    }, {
+        "id":2,
+        "kor": "감시탑",
+        "jap": "監視塔",
+        "kor_rare": "흉벽부 감시탑",
+        "jap_rare": "胸壁付監視塔"
+    }, {
+        "id":3,
+        "kor": "주탑",
+        "jap": "主塔",
+        "kor_rare": "주탑 내 저장고",
+        "jap_rare": "主塔内貯蔵庫"
+    }],
+    "job": ["길드너", "호오즈키", "빅트"],
+    "statusup": ["피네"],
+    "monster": [{
+        "id":1,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":2,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":3,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":4,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":5,
+        "weak": ["풍"],
+        "strong": ["지"],
+        "description": ""
+    }, {
+        "id":6,
+        "weak": ["지"],
+        "strong": ["화"],
+        "description": ""
+    }, {
+        "id":7,
+        "weak": ["지"],
+        "strong": ["화"],
+        "description": "FEAR"
+    }],
+    "boss": {
+        "weak": null,
+        "strong": null,
+        "description": ["스토리에서 봤던 그 보스", "빈사 상태에서 즉사기 있음"]
+    },
+    "etc": ["없음"]
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-weight: 600;
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.left-profile {
+    font-size: 1rem;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
