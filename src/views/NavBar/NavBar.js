@@ -15,8 +15,17 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
               value: 'nadara',
               label: '나다라 화산',
             }, {
+              value: 'star',
+              label: '별의 탑',
+            }, {
+              value: 'time',
+              label: '시간의 탑',
+            },{
               value: 'swamp',
               label: '식인 늪',
+            }, {
+              value: 'zer_thund',
+              label: '제르베리야(뇌)',
             }, {
               value: 'zer_jung',
               label: '제르베리야(정)',
@@ -50,6 +59,15 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             }, {
               value: 'mayu',
               label: '마유의 꿈 의식',
+            }, {
+              value: 'corridor',
+              label: '시층회랑'
+            },{
+              value: 'zeno',
+              label: '제노 도메인'
+            }, {
+              value: 'ship',
+              label: '차원전함'
             }
           ],
         }

@@ -91,8 +91,8 @@ function DungeonPage({dungeon, language}) {
                         <Divider orientation="center" style={{fontSize:"1.4rem"}}>Monster &#38; Fear</Divider>
                         <Row justify="center" style={{borderBottom: "1px solid lightgray", paddingBottom: "10px"}}> 
                             <Col span={5}>이미지</Col>
-                            <Col span={5}>약점</Col>
-                            <Col span={5}>내성</Col>
+                            <Col span={6}>약점</Col>
+                            <Col span={6}>내성</Col>
                             <Col span={5}>비고</Col>
                         </Row>
                         {dungeon.monster ? (
@@ -101,7 +101,7 @@ function DungeonPage({dungeon, language}) {
                                     <Col span={5} style={{borderRight: "1px solid lightgray"}}>
                                         <img alt = {monster.id} style={{ width: "60%"}} src={`images/monster/${dungeon.name}_${monster.id}.jpg`}/>
                                     </Col>
-                                    <Col span={5}>
+                                    <Col span={6}>
                                         {monster.weak === null ? 
                                         <Title level={2}>없음</Title>
                                         : (monster.weak.map(type => (
@@ -110,7 +110,7 @@ function DungeonPage({dungeon, language}) {
                                             </Tooltip>
                                         )))}
                                     </Col>
-                                    <Col span={5}>
+                                    <Col span={6}>
                                         {monster.strong === null ? 
                                         <Title level={2}>없음</Title>
                                         : (monster.strong.map(type => (
@@ -131,14 +131,14 @@ function DungeonPage({dungeon, language}) {
                         <Divider orientation="center" style={{fontSize:"1.4rem"}}>BOSS</Divider>
                         <Row justify="center" style={{paddingBottom: "10px"}}> 
                             <Col span={5}>이미지</Col>
-                            <Col span={5}>약점</Col>
-                            <Col span={5}>내성</Col>
+                            <Col span={7}>약점</Col>
+                            <Col span={7}>내성</Col>
                         </Row>
                         <Row justify="center" align="middle" style={{marginBottom: "20px"}}>
                             <Col span={5}>
                                 <img alt ="boss" style={{ width: "80%"}} src={`images/monster/${dungeon.name}_boss.jpg`}/>
                             </Col>    
-                            <Col span={5}>
+                            <Col span={7}>
                                     {dungeon.boss.weak === null ? <Title level={2}>없음</Title> : 
                                     (dungeon.boss.weak.map(type => (
                                         <Tooltip title={type}>
@@ -146,7 +146,7 @@ function DungeonPage({dungeon, language}) {
                                         </Tooltip>
                                     )))}
                             </Col>
-                            <Col span={5}>
+                            <Col span={7}>
                                     {dungeon.boss.strong === null ? <Title level={2}>없음</Title> : 
                                     (dungeon.boss.strong.map(type => (
                                         <Tooltip title={type}>
