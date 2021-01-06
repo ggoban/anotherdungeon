@@ -65,8 +65,11 @@
         "description": "RARE FEAR"
     }],
     "boss": {
-        "weak": null,
-        "strong": null,
+        "members": [{
+            "id":1,
+            "weak": null,
+            "strong": null
+        }],
         "description": ["특이사항 없음"] 
     },
     "etc": ["없음"]

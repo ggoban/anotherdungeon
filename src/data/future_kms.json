@@ -12,19 +12,19 @@
     "map": [{
         "id":1,
         "kor": "엔트런스",
-        "jap": "地下入口"
+        "jap": "エントランス"
     }, {
         "id":2,
         "kor": "집무층",
-        "jap": "仄暗い回廊",
+        "jap": "オフィス・フロア",
         "kor_rare": "위성층",
-        "jap_rare": "幽々たる回廊"
+        "jap_rare": "サイレントフロア"
     }, {
         "id":3,
         "kor": "연구실층",
-        "jap": "寂然の間",
+        "jap": "ラボラトリー・フロア",
         "kor_rare": "은폐층",
-        "jap_rare": "幽遠の間"
+        "jap_rare": "コンシールメントフロア"
     }],
     "job": null,
     "multiple": {
@@ -83,8 +83,11 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": ["타격"],
-        "strong": null,
+        "members": [{
+            "id":1,
+            "weak": ["타격"],
+            "strong": null
+        }],
         "description": ["특이사항 없음"]
     },
     "etc": ["이절 몽영 안 나옴", "창궁외전 포인트작", "FEAR는 항상 나옴"]

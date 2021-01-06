@@ -50,8 +50,11 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": ["수"],
-        "strong": ["화(흡수)", "풍"],
+        "members": [{
+            "id":1,
+            "weak": ["수"],
+            "strong": ["화(흡수)", "풍"]
+        }],
         "description": ["내성 정보는 Very Hard 기준"] 
     },
     "etc": ["없음"]

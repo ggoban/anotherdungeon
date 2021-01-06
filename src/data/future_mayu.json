@@ -85,9 +85,12 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": ["풍"],
-        "strong": null,
+        "members": [{
+            "id":1,
+            "weak": ["풍"],
+            "strong": null
+        }],
         "description": ["불속성 마법공격만 주의"]
     },
-    "etc": ["이절 몽영 안 나옴", "IDA 외전 2편 포인트작", "FEAR는 레어 맵에서만 나옴"]
+    "etc": ["이절 몽영 안 나옴", "IDA 외전 2편 포인트작", "FEAR는 2스테이지 레어맵에서만 나옴"]
 }

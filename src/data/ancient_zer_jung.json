@@ -66,8 +66,11 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": ["정"],
-        "strong": null,
+        "members": [{
+            "id":1,
+            "weak": ["정"],
+            "strong": null
+        }],
         "description": ["50% 이하 패턴변화, 전체 암흑 포함 각종 상태이상 부여.", "반피 위에서 되도록이면 처리할 것"]
     },
     "etc": ["이절 몽영 나옴", "아주르 무기 3종 제작/강화(정속성무기)"]

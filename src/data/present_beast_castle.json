@@ -65,9 +65,12 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": null,
-        "strong": null,
+        "members": [{
+            "id":1,
+            "weak": null,
+            "strong": null
+        }],
         "description": ["스토리에서 봤던 그 보스", "빈사 상태에서 즉사기 있음"]
     },
-    "etc": ["없음"]
+    "etc": ["마수성 방어구 제작"]
 }

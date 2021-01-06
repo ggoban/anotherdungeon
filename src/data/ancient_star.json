@@ -46,8 +46,11 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": ["풍"],
-        "strong": ["지"],
+        "members": [{
+            "id":1,
+            "weak": ["풍"],
+            "strong": ["지"]
+        }],
         "description": ["특이사항 없음"] 
     },
     "etc": ["없음"]

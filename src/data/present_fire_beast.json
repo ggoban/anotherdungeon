@@ -79,9 +79,12 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": null,
-        "strong": null,
+        "members": [{
+            "id":1,
+            "weak": null,
+            "strong": null
+        }],
         "description": ["첫 턴부터 전체기 날아오니 주의할 것"]
     },
-    "etc": ["마검외전2 포인트작"]
+    "etc": ["마검외전2 포인트작", "불굴무기 제작 재료 수집"]
 }

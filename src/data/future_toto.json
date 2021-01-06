@@ -55,8 +55,11 @@
         "description": "RARE FEAR"
     }],
     "boss": {
-        "weak": null,
-        "strong": null,
+        "members": [{
+            "id":1,
+            "weak": null,
+            "strong": null
+        }],
         "description": ["전체 물리공격 주의"] 
     },
     "etc": ["토토무기 강화 (Hard)", "정령무기 강화 (Very Hard)"]

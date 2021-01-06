@@ -51,8 +51,11 @@
         "description": "RARE FEAR"
     }],
     "boss": {
-        "weak": ["풍", "지", "화", "수"],
-        "strong": null,
+        "members": [{
+            "id":1,
+            "weak": ["풍", "지", "화", "수"],
+            "strong": null
+        }],
         "description": ["순서대로 약점이 바뀜", "(첫 턴에 풍속 약점, 2번째 턴에 지속 약점...)"] 
     },
     "etc": ["없음"]

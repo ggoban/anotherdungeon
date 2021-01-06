@@ -6,7 +6,9 @@ import ancient_nadara from "../data/ancient_nadara.json";
 import ancient_swamp from "../data/ancient_swamp.json";
 import ancient_time from "../data/ancient_time.json";
 import ancient_star from "../data/ancient_star.json";
+import ancient_dragon from "../data/ancient_dragon.json";
 import future_mayu from "../data/future_mayu.json";
+import future_saki from "../data/future_saki.json";
 import future_zeno from "../data/future_zeno.json";
 import future_ship from "../data/future_ship.json";
 import future_toto from "../data/future_toto.json";
@@ -20,6 +22,9 @@ import present_miglance from "../data/present_miglance.json"
 import present_beast_castle from "../data/present_beast_castle.json";
 import present_fire_beast from "../data/present_fire_beast.json";
 import present_weird from "../data/present_weird.json";
+import present_labyrinth from "../data/present_labyrinth.json";
+import etc_exp from "../data/etc_exp.json";
+import etc_git from "../data/etc_git.json";
 
 const dungeons = {
     present_beast_castle: present_beast_castle,
@@ -42,7 +47,11 @@ const dungeons = {
     present_fire_beast: present_fire_beast,
     present_weird: present_weird,
     future_kms: future_kms,
-
+    present_labyrinth: present_labyrinth,
+    future_saki: future_saki,
+    ancient_dragon: ancient_dragon,
+    etc_exp: etc_exp,
+    etc_git: etc_git
 }
 
 const initialState = {

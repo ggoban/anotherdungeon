@@ -1,0 +1,84 @@
+{
+    "name": "미글랜스 지하미궁",            
+    "reward": "천, 명",
+    "hard": {
+        "level": 33,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 40,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "탈출구",
+        "jap": "脱出口"
+    }, {
+        "id":2,
+        "kor": "지하도",
+        "jap": "地下道",
+        "kor_rare": "갱도",
+        "jap_rare": "坑道"
+    }, {
+        "id":3,
+        "kor": "유폐의 길",
+        "jap": "幽閉の道",
+        "kor_rare": "금지된 길",
+        "jap_rare": "禁足の道"
+    }],
+    "job": null,
+    "multiple": {
+        "character": [{
+            "name": "아나벨",
+            "rate": "x2배" 
+        }, {
+            "name": "디아드라",
+            "rate": "x1.5배" 
+        },{
+            "name": "미유",
+            "rate": "x1.2배" 
+        },{
+            "name": "네로",
+            "rate": "x1.2배" 
+        },{
+            "name": "소이라",
+            "rate": "x1.2배"
+        }]
+    },
+    "statusup": ["디아드라"],
+    "monster": [{
+        "id":1,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":2,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":3,
+        "weak": ["베기", "화"],
+        "strong": ["풍"],
+        "description": ""
+    }, {
+        "id":4,
+        "weak": ["지"],
+        "strong": ["수"],
+        "description": ""
+    }, {
+        "id":5,
+        "weak": ["지"],
+        "strong": ["화","수"],
+        "description": "FEAR"
+    }],
+    "boss": {
+        "members": [{
+            "id":1,
+            "weak": ["지"],
+            "strong": ["화"]
+        }],
+        "description": ["특이사항 없음"]
+    },
+    "etc": ["이절 몽영 안 나옴", "마검외전 포인트작", "FEAR는 2스테이지 레어맵에서만 나옴"]
+}

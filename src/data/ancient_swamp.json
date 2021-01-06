@@ -60,8 +60,11 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": ["지"],
-        "strong": ["화", "수"],
+        "members": [{
+            "id":1,
+            "weak": ["지"],
+            "strong": ["화", "수"]
+        }],
         "description": ["내성 정보는 Very Hard 기준"] 
     },
     "etc": ["없음"]

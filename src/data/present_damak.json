@@ -55,8 +55,11 @@
         "description": "FEAR"
     }],
     "boss": {
-        "weak": null,
-        "strong": ["풍"],
+        "members": [{
+            "id":1,
+            "weak": null,
+            "strong": ["풍"]
+        }],
         "description": ["그라운드 브레이크 4번 맞으면", "남은 체력에 관계없이 전멸"]
     },
     "etc": ["항마무기 강화"]

@@ -23,6 +23,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             },{
               value: 'swamp',
               label: '식인 늪',
+            },{
+              value: 'dragon',
+              label: '용궁성',
             }, {
               value: 'zer_thund',
               label: '제르베리야(뇌)',
@@ -51,6 +54,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
               value: 'miglance',
               label: '미글랜스 성',
             },{
+              value: 'labyrinth',
+              label: '미글랜스 지하미궁',
+            },{
               value: 'damak',
               label: '뱀의 간 다마크',
             },{
@@ -71,6 +77,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             }, {
               value: 'mayu',
               label: '마유의 꿈 의식',
+            },{
+              value: 'saki',
+              label: '사키의 꿈 의식',
             }, {
               value: 'corridor',
               label: '시층회랑'
@@ -83,6 +92,18 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             },{
               value: 'toto',
               label: '토토 드림랜드'
+            }
+          ],
+        },{
+          value: 'etc',
+          label: '기타',
+          children: [
+            {
+              value: 'exp',
+              label: '봉역 - 어렴풋한 시각의 틈새',
+            },{
+              value: 'git',
+              label: '봉역 - 덧없는 시각의 틈새',
             }
           ],
         }

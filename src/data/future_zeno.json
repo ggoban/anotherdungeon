@@ -55,8 +55,11 @@
         "description": "RARE FEAR"
     }],
     "boss": {
-        "weak": ["화"],
-        "strong": ["풍", "지"],
+        "members": [{
+            "id":1,
+            "weak": ["화"],
+            "strong": ["풍", "지"]
+        }],
         "description": ["내성 정보는 Very Hard 기준"] 
     },
     "etc": ["없음"]
