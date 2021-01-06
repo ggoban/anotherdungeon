@@ -1,0 +1,87 @@
+{
+    "name": "불타는 마수성",            
+    "reward": "천, 명",
+    "hard": {
+        "level": 65,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 70,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "전방 호위탑",
+        "jap": "前衛塔"
+    }, {
+        "id":2,
+        "kor": "감시탑",
+        "jap": "監視塔",
+        "kor_rare": "흉벽부 감시탑",
+        "jap_rare": "胸壁付監視塔"
+    }, {
+        "id":3,
+        "kor": "주탑",
+        "jap": "主塔",
+        "kor_rare": "주탑 내 저장고",
+        "jap_rare": "主塔内貯蔵庫"
+    }],
+    "job": ["브리아"],
+    "statusup": null,
+    "multiple": {
+        "character": [{
+            "name": "라디아스",
+            "rate": "x1.5배" 
+        }, {
+            "name": "알테나",
+            "rate": "x1.1배" 
+        },{
+            "name": "디아드라",
+            "rate": "x1.1배" 
+        },{
+            "name": "길드너",
+            "rate": "x1.1배" 
+        },{
+            "name": "로키드",
+            "rate": "x1.1배"
+        },{
+            "name": "브리아",
+            "rate": "x1.1배"
+        },{
+            "name": "아나벨",
+            "rate": "x1.1배"
+        }]
+    },
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기", "풍"],
+        "strong": ["화", "지"],
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["지"],
+        "strong": ["화", "수"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": ["화", "지"],
+        "strong": ["베기"],
+        "description": ""
+    }, {
+        "id":4,
+        "weak": ["베기", "화"],
+        "strong": ["타격", "수"],
+        "description": ""
+    }, {
+        "id":5,
+        "weak": ["베기", "화"],
+        "strong": ["타격", "수"],
+        "description": "FEAR"
+    }],
+    "boss": {
+        "weak": null,
+        "strong": null,
+        "description": ["첫 턴부터 전체기 날아오니 주의할 것"]
+    },
+    "etc": ["마검외전2 포인트작"]
+}

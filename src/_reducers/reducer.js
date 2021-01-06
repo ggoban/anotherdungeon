@@ -1,5 +1,5 @@
 import * as types from "../_actions/types";
-import present_beast_castle from "../data/present_beast_castle.json";
+
 import ancient_zer_jung from "../data/ancient_zer_jung.json";
 import ancient_zer_thund from "../data/ancient_zer_thund.json";
 import ancient_nadara from "../data/ancient_nadara.json";
@@ -9,11 +9,17 @@ import ancient_star from "../data/ancient_star.json";
 import future_mayu from "../data/future_mayu.json";
 import future_zeno from "../data/future_zeno.json";
 import future_ship from "../data/future_ship.json";
+import future_toto from "../data/future_toto.json";
+import future_kms from "../data/future_kms.json";
 import future_corridor from "../data/future_corridor.json";
 import future_industry from "../data/future_industry.json";
 import present_dogma from "../data/present_dogma.json"
 import present_moon from "../data/present_moon.json"
+import present_damak from "../data/present_damak.json"
 import present_miglance from "../data/present_miglance.json"
+import present_beast_castle from "../data/present_beast_castle.json";
+import present_fire_beast from "../data/present_fire_beast.json";
+import present_weird from "../data/present_weird.json";
 
 const dungeons = {
     present_beast_castle: present_beast_castle,
@@ -30,7 +36,13 @@ const dungeons = {
     future_ship: future_ship,
     ancient_time: ancient_time,
     future_corridor: future_corridor,
-    ancient_star: ancient_star
+    ancient_star: ancient_star,
+    present_damak: present_damak,
+    future_toto: future_toto,
+    present_fire_beast: present_fire_beast,
+    present_weird: present_weird,
+    future_kms: future_kms,
+
 }
 
 const initialState = {

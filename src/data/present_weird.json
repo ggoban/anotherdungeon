@@ -1,0 +1,79 @@
+{
+    "name": "기묘한 숲",            
+    "reward": "천",
+    "veryhard": {
+        "level": 65,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "입구",
+        "jap": "入り口"
+    }, {
+        "id":2,
+        "kor": "미로",
+        "jap": "迷いの道",
+        "kor_rare": "샛길",
+        "jap_rare": "抜け道"
+    }, {
+        "id":3,
+        "kor": "술렁이는 밀림",
+        "jap": "騒めく樹海",
+        "kor_rare": "인도하는 밀림",
+        "jap_rare": "導く樹海"
+    }],
+    "job": ["미유"],
+    "statusup": null,
+    "monster": [{
+        "id":1,
+        "weak": ["수"],
+        "strong": ["타격", "풍"],
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["풍"],
+        "strong": ["타격", "수"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": ["지"],
+        "strong": ["타격", "화"],
+        "description": ""
+    }, {
+        "id":4,
+        "weak": ["화"],
+        "strong": ["타격", "지"],
+        "description": ""
+    }, {
+        "id":5,
+        "weak": ["화"],
+        "strong": ["풍"],
+        "description": ""
+    },{
+        "id":6,
+        "weak": null,
+        "strong": ["지(무효)"],
+        "description": ""
+    },{
+        "id":7,
+        "weak": ["화"],
+        "strong": ["타격", "지"],
+        "description": "RARE"
+    },{
+        "id":8,
+        "weak": ["화"],
+        "strong": ["타격", "지"],
+        "description": "FEAR"
+    },{
+        "id":9,
+        "weak": ["지"],
+        "strong": ["타격", "화"],
+        "description": "RARE FEAR"
+    }],
+    "boss": {
+        "weak": ["베기"],
+        "strong": ["마법(흡수)"],
+        "description": ["상태이상 맞으면 귀찮아지니 빠르게 삭제"]
+    },
+    "etc": ["이절 안 나옴, 몽영은 나옴","리틀 글리터 강화"]
+}

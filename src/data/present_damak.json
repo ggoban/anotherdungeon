@@ -1,0 +1,63 @@
+{
+    "name": "뱀의 간 다마크",            
+    "reward": "명",
+    "hard": {
+        "level": 66,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 72,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "허리띠",
+        "jap": "腰帯部"
+    }, {
+        "id":2,
+        "kor": "작은 그물막",
+        "jap": "小網部",
+        "kor_rare": "유문",
+        "jap_rare": "幽門"
+    }, {
+        "id":3,
+        "kor": "복강부",
+        "jap": "腹腔部",
+        "kor_rare": "분문",
+        "jap_rare": "噴門"
+    }],
+    "job": ["알도", "엘가", "듀나리스", "밍화", "제비로"],
+    "statusup": ["길드너"],
+    "monster": [{
+        "id":1,
+        "weak": ["화"],
+        "strong": ["타격"],
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["화"],
+        "strong": ["풍"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": ["찌르기"],
+        "strong": null,
+        "description": ""
+    }, {
+        "id":4,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":5,
+        "weak": null,
+        "strong": null,
+        "description": "FEAR"
+    }],
+    "boss": {
+        "weak": null,
+        "strong": ["풍"],
+        "description": ["그라운드 브레이크 4번 맞으면", "남은 체력에 관계없이 전멸"]
+    },
+    "etc": ["항마무기 강화"]
+}

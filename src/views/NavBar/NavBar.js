@@ -36,6 +36,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
           label: '현대',
           children: [
             {
+              value: 'weird',
+              label: '기묘한 숲',
+            },{
               value: 'moon',
               label: '달그림자 숲',
             }, {
@@ -47,6 +50,12 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             }, {
               value: 'miglance',
               label: '미글랜스 성',
+            },{
+              value: 'damak',
+              label: '뱀의 간 다마크',
+            },{
+              value: 'fire_beast',
+              label: '불타는 마수성',
             }
           ],
         }, {
@@ -56,6 +65,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             {
               value: 'industry',
               label: '공업도시 폐허',
+            },{
+              value: 'kms',
+              label: '구 KMS 본사',
             }, {
               value: 'mayu',
               label: '마유의 꿈 의식',
@@ -68,6 +80,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             }, {
               value: 'ship',
               label: '차원전함'
+            },{
+              value: 'toto',
+              label: '토토 드림랜드'
             }
           ],
         }
