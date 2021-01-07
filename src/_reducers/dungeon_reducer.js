@@ -29,6 +29,19 @@ import present_mementos from "../data/present_mementos.json";
 import etc_exp from "../data/etc_exp.json";
 import etc_git from "../data/etc_git.json";
 
+import present from "../data/garulea/present.json"
+import ancient from "../data/garulea/ancient.json"
+import future from "../data/garulea/future.json"
+
+const garuls = {
+    present: present,
+    ancient: ancient,
+    future: future,
+    gold: {
+        name: "비경 - 루차나 고적"
+    }
+}
+
 const dungeons = {
     present_beast_castle: present_beast_castle,
     ancient_zer_jung: ancient_zer_jung,
@@ -64,7 +77,10 @@ const initialState = {
     dungeon: window.localStorage.getItem("Time") 
     ? dungeons[`${window.localStorage.getItem("Time")}_${window.localStorage.getItem("Dungeon")}`]
      : dungeons.ancient_nadara,
-    language: "kor"
+    language: "kor",
+    garul_time: window.localStorage.getItem("Garul_Time") 
+    ? garuls[window.localStorage.getItem("Garul_Time")]
+     : garuls.present
 }
 
 const counter = (state=initialState, action) => {
@@ -78,6 +94,11 @@ const counter = (state=initialState, action) => {
             return {
                 ...state,
                 language: action.language
+            }
+        case types.SET_GARUL:
+            return {
+                ...state,
+                garul_time: garuls[action.garul_time]
             }
         default: 
             return state;

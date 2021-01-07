@@ -1,0 +1,72 @@
+{
+    "name": "미래 가를레아 대륙",            
+    "reward": "천, 명",
+    "hard": {
+        "level": 80,
+        "count": "24 / 60 / 120 / 240 / 360"
+    },
+    "first": "비 올 때 고양이 신사",
+    "etc": "피어 꼭 잡을 것(변질광석을 줌)",
+    "statusup": ["셀리느"],
+    "map": [{
+        "id":1,
+        "kor": "불모의 땅",
+        "jap": "澱みの地",
+        "description": "반짝이 줍기"
+    },{
+        "id":2,
+        "kor": "사테라 스타디움",
+        "jap": "サテラ・スタジアム",
+        "description": "입장시 티켓 필요, 높은 확률로 보스방에서 경옥"
+    }],
+    "boxmap": [{
+        "id":1,
+        "kor": "오염갱",
+        "jap": "汚染坑",
+        "description": "처음은 여기만 열려 있음"
+    },{
+        "id":2,
+        "kor": "감옥선 가르파겐",
+        "jap": "監獄船ガルファゲン",
+        "description": "이지아 개방 후 해금 가능"
+    },{
+        "id":3,
+        "kor": "KMS 동방지부",
+        "jap": "KMS東方支部",
+        "description": "이지아 개방 후 해금 가능"
+    }],
+    "weak": "https://altema.jp/anaden/anothergalreamirai",
+    "boss": [{
+        "id":1,
+        "weak": null,
+        "strong": null,
+        "comment": "본체",
+        "description": ["잡몹 있을 시 본체 공격 무효화"]
+    },{
+        "id":2,
+        "weak": ["수"],
+        "strong": null,
+        "comment": "본체",
+        "description": ["둘 모두 잡아야 함"]
+    },{
+        "id":3,
+        "weak": null,
+        "strong": null,
+        "comment": "본체",
+        "description": ["상자에서 공격경옥을 주므로", "가장 많이 잡게 될 보스"]
+    },{
+        "id":4,
+        "weak": null,
+        "strong": null,
+        "comment": "본체",
+        "description": ["50% 이하에서 베기 약점", "강한 공격과 혼란 상태이상 주의"]
+    }],
+    "items": [{
+        "id": 1,
+        "description": ["1. 가르파겐 & KMS동방지부 해금", "2. 무기 교환(키 아이템 + 광석 40개", 
+            "3-1. 사테라 스타디움 티켓(1장 = 광석 30개)", "3-2. 필요한 경옥 / 연성재료"]
+    },{
+        "id": 2,
+        "description": ["1. 방어구 교환", "2. 필요한 경옥 / 연성재료"]
+    }]
+}

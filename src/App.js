@@ -10,7 +10,7 @@ function App() {
     <HashRouter>
       <Route exact path="/" component={MainPage}/>
       <Route exact path="/dungeon" component={DungeonPage}/>
-      <Route exact path="/garulea" component={EtcPage}/>
+      <Route exact path="/etc" component={EtcPage}/>
       <Route exact path="/search" component={SearchPage}/>
     </HashRouter>
   );
