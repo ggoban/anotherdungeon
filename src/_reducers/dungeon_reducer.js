@@ -61,7 +61,9 @@ const dungeons = {
 }
 
 const initialState = {
-    dungeon: dungeons.ancient_zer_jung,
+    dungeon: window.localStorage.getItem("Time") 
+    ? dungeons[`${window.localStorage.getItem("Time")}_${window.localStorage.getItem("Dungeon")}`]
+     : dungeons.ancient_nadara,
     language: "kor"
 }
 

@@ -41,7 +41,7 @@
         "description": ""
     }, {
         "id":4,
-        "weak": ["찌르기", "화"],
+        "weak": ["베기", "화"],
         "strong": ["지", "수(흡수)"],
         "description": ""
     }, {
@@ -51,7 +51,7 @@
         "description": ""
     },{
         "id":6,
-        "weak": ["찌르기", "화"],
+        "weak": ["베기", "화"],
         "strong": ["지", "수(흡수)"],
         "description": "RARE"
     },{

@@ -1,13 +1,13 @@
-import React from 'react'
-import { Row, Cascader, Radio, Button, Typography } from 'antd';
+import React, {useState} from 'react'
+import { Row, Cascader, Radio, Button } from 'antd';
 import { connect } from 'react-redux';
 import { setDungeon, setLanguage } from "../../_actions/actions";
 import domtoimage from 'dom-to-image';
 
-const {Title} = Typography;
-
 function NavBar({dungeon, language, HandleSelect, HandleChange}) {
-            
+    
+    const [Time, setTime] = useState(window.localStorage.getItem("Time") ? window.localStorage.getItem("Time") : "ancient");
+    const [DungeonName, setDungeonName] = useState(window.localStorage.getItem("Dungeon") ? window.localStorage.getItem("Dungeon") : "nadara");
     const options = [
         {
           value: 'ancient',
@@ -119,7 +119,7 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
           ],
         }
       ];
-    
+
     const handleSaveClick = () => {
       domtoimage.toJpeg(document.querySelector('.container'), { quality: 1 })
       .then(function (dataUrl) {
@@ -133,12 +133,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
 
     return (
         <div>
-          <Row justify="center" style={{marginTop: "1rem"}}>
-            <Title level={5}>미등록 던전 : 가를레아 대륙, 이경, 루차나 고적</Title>
-          </Row>
           <Row justify="center">
               <Cascader
-                  defaultValue={['ancient', 'zer_jung']}
+                  defaultValue={[Time, DungeonName]}
                   options={options}
                   onChange={HandleSelect} 
                   allowClear={false}
@@ -160,7 +157,11 @@ const mapStateToProps = state => ({
 })
 
 const mapDispatchToProps = dispatch => ({
-  HandleSelect: (value) => dispatch(setDungeon(`${value[0]}_${value[1]}`)),
+  HandleSelect: (value) => { 
+    dispatch(setDungeon(`${value[0]}_${value[1]}`));
+    window.localStorage.setItem("Time", value[0])
+    window.localStorage.setItem("Dungeon", value[1])
+  },
   HandleChange: (event) => dispatch(setLanguage(event.target.value))
 });
 

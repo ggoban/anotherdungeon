@@ -3,10 +3,13 @@ import {connect} from 'react-redux';
 import NavBar from '../NavBar/NavBar';
 import {Row, Col, Typography, Tooltip, Divider} from "antd";
 import './DungeonPage.css';
+import {withRouter} from "react-router-dom";
 
 const {Title} = Typography;
 
 function DungeonPage({dungeon, language}) {
+
+    console.log(dungeon)
 
     return(
         <div>
@@ -182,4 +185,4 @@ const mapStateToProps = state => ({
     language: state.language
 })
 
-export default connect(mapStateToProps)(DungeonPage)
+export default connect(mapStateToProps)(withRouter(DungeonPage))

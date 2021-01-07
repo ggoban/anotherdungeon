@@ -1,0 +1,92 @@
+[
+     {
+        "name": "나다라 화산",
+        "job": ["라클레어", "가리유", "메리나", "라디카", "로제타", "러블리", "틸릴", "이웨라"],
+        "time": "ancient",
+        "dungeonname": "nadara"
+    }, 
+     {
+        "name": "식인 늪",
+        "job": ["사이러스", "투바", "유나", "나기", "베이나", "티라미수", "미스트레아", "미르샤"],
+        "time": "ancient",
+        "dungeonname": "swamp"
+    },
+     {
+        "name": "고대 제르베리야 정",
+        "job": ["메리나", "미스트레아", "틸릴", "로제타", "미르샤"],
+        "time": "ancient",
+        "dungeonname": "zer_jung"
+    }, 
+     {
+        "name": "고대 제르베리야 뇌",
+        "job": ["메리나", "미스트레아", "틸릴", "로제타", "미르샤"],
+        "time": "ancient",
+        "dungeonname": "zer_thund"
+    },
+    {
+        "name": "공중정원",
+        "job": ["시엘"],
+        "time": "future",
+        "dungeonname": "garden"
+    },
+     {
+        "name": "공업도시 폐허",
+        "job": ["마이티", "셀리느", "클로드", "비아카", "히스메나"],
+        "time": "future",
+        "dungeonname": "industry"
+    },
+     {
+        "name": "차원전함", 
+        "job": ["이프", "마리엘", "유인", "셰이네", "섀넌", "이루루", "헬레나", "하디"],
+        "time": "future",
+        "dungeonname": "ship"
+    },
+     {
+        "name": "토토 드림랜드",
+        "job": ["에이미", "듀이", "필로", "키쿄", "신시아"],
+        "time": "future",
+        "dungeonname": "toto"
+    },
+     {
+        "name": "제노 도메인",
+        "job": ["수제트", "이스카", "세티", "렌리", "리이카", "프레메아"],
+        "time": "future",
+        "dungeonname": "zeno"
+    },
+     {
+        "name": "마수성", 
+        "job": ["길드너", "호오즈키", "빅트"],
+        "time": "present",
+        "dungeonname": "beast_castle"
+    },
+     {
+        "name": "뱀의 간 다마크", 
+        "job": ["알도", "엘가", "듀나리스", "밍화", "제비로"],
+        "time": "present",
+        "dungeonname": "damak"
+    },
+    {
+        "name": "불타는 마수성",
+        "job": ["브리아"],
+        "time": "present",
+        "dungeonname": "fire_beast"
+    },
+    {
+        "name": "미글랜스 성",
+        "job": ["라디아스", "시온", "아나벨", "베르트랑", "펠미나", "시구레", "히이나"],
+        "time": "present",
+        "dungeonname": "miglance"
+    },
+     {
+        "name": "달그림자 숲",
+        "job": ["로키드", "아자미", "츠바메", "뮬루스", "츠키하", "유키노"],
+        "time": "present",
+        "dungeonname": "moon"
+    },
+     {
+        "name": "기묘한 숲", 
+        "job": ["미유"],
+        "time": "present",
+        "dungeonname": "weird"
+    }
+]

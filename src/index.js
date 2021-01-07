@@ -5,10 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'antd/dist/antd.css';
 import {createStore} from 'redux';
-import counter from './_reducers/reducer';
+import reducers from './_reducers/dungeon_reducer';
 import { Provider } from 'react-redux';
 
-const store = createStore(counter);
+const store = createStore(reducers);
 
 ReactDOM.render(
   <Provider store={store}>
