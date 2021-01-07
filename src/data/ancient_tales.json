@@ -1,0 +1,113 @@
+{
+    "name": "환시가 꿈꾸는 이야기",            
+    "reward": "천, 명",
+    "hard": {
+        "level": 50,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 70,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "홍련에 쫓기는 시작",
+        "jap": "紅蓮に追われる始まり"
+    }, {
+        "id":2,
+        "kor": "흔들린 수면에 비치는 여로",
+        "jap": "揺れる水面に写る旅路",
+        "kor_rare": "물밑에 잠드는 여로의 이문",
+        "jap_rare": "水底に沈む旅路の異聞"
+    }, {
+        "id":3,
+        "kor": "선택의 기로에 선 시간",
+        "jap": "選択の帰路に立ちし時",
+        "kor_rare": "결단이 다가온 시간의 이문",
+        "jap_rare": "決断迫りし時の異聞"
+    }],
+    "job": null,
+    "statusup": ["클레스", "벨벳", "미라", "유리"],
+    "monster": [{
+        "id":1,
+        "weak": ["타격", "수"],
+        "strong": ["화"],
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["수", "풍"],
+        "strong": ["화"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": ["수"],
+        "strong": ["화"],
+        "description": ""
+    }, {
+        "id":4,
+        "weak": ["수", "풍"],
+        "strong": ["화"],
+        "description": "FEAR"
+    }, {
+        "id":5,
+        "weak": ["지"],
+        "strong": ["수"],
+        "description": ""
+    }, {
+        "id":6,
+        "weak": ["지"],
+        "strong": ["수"],
+        "description": ""
+    }, {
+        "id":7,
+        "weak": ["마법", "지"],
+        "strong": ["수"],
+        "description": ""
+    }, {
+        "id":8,
+        "weak": ["지"],
+        "strong": ["수"],
+        "description": "FEAR"
+    }, {
+        "id":9,
+        "weak": ["마법", "화"],
+        "strong": ["찌르기", "타격"],
+        "description": ""
+    }, {
+        "id":10,
+        "weak": ["베기"],
+        "strong": ["찌르기"],
+        "description": ""
+    }, {
+        "id":11,
+        "weak": ["찌르기"],
+        "strong": ["마법"],
+        "description": ""
+    }, {
+        "id":12,
+        "weak": ["베기"],
+        "strong": ["찌르기"],
+        "description": "FEAR"
+    }],
+    "boss": {
+        "members": [{
+            "id":1,
+            "weak": ["화"],
+            "strong": ["지"]
+        }, {
+            "id":2,
+            "weak": ["지"],
+            "strong": ["화"]
+        },{
+            "id":3,
+            "weak": ["수"],
+            "strong": ["풍"]
+        },{
+            "id":4,
+            "weak": ["풍"],
+            "strong": ["수"]
+        }],
+        "description": ["루트에 따라 보스가 달라짐 (캐릭터 속성 따라)", "존을 바꾸면 약점이 나와 쉬워진다"]
+    },
+    "etc": ["테일즈 콜라보 포인트작", "포인트는 캐릭터 5성 개방 조건이기도 함", "이절 나옴, 몽영은 안 나옴", "FEAR는 항상 등장", "높은 스탯의 배지 획득 가능"]
+}

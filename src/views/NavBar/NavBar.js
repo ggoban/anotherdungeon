@@ -1,8 +1,10 @@
 import React from 'react'
-import { Row, Cascader, Radio, Button } from 'antd';
+import { Row, Cascader, Radio, Button, Typography } from 'antd';
 import { connect } from 'react-redux';
 import { setDungeon, setLanguage } from "../../_actions/actions";
 import domtoimage from 'dom-to-image';
+
+const {Title} = Typography;
 
 function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             
@@ -32,7 +34,10 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             }, {
               value: 'zer_jung',
               label: '제르베리야(정)',
-            }, 
+            }, {
+              value: 'tales',
+              label: '환시가 꿈꾸는 이야기',
+            }
           ],
         }, {
           value: 'present',
@@ -50,6 +55,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             }, {
               value: 'beast_castle',
               label: '마수성',
+            },{
+              value: 'mementos',
+              label: '메멘토스',
             }, {
               value: 'miglance',
               label: '미글랜스 성',
@@ -71,6 +79,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
             {
               value: 'industry',
               label: '공업도시 폐허',
+            },{
+              value: 'garden',
+              label: '공중정원',
             },{
               value: 'kms',
               label: '구 KMS 본사',
@@ -122,6 +133,9 @@ function NavBar({dungeon, language, HandleSelect, HandleChange}) {
 
     return (
         <div>
+          <Row justify="center" style={{marginTop: "1rem"}}>
+            <Title level={5}>미등록 던전 : 가를레아 대륙, 이경, 루차나 고적</Title>
+          </Row>
           <Row justify="center">
               <Cascader
                   defaultValue={['ancient', 'zer_jung']}
