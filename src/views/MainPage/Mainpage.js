@@ -7,7 +7,7 @@ const { Meta } = Card;
 
 function Mainpage() {
     return (
-        <div style={{paddingTop: "5rem"}}>
+        <div style={{paddingTop: "5rem"}} className="container">
             <Row justify="center" align="middle">
                 <Col xs={12} md={8} lg={6}>
                     <Link to="/dungeon">
