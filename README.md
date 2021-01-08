@@ -11,6 +11,6 @@ MIT License
 
 ### 일부 이미지 출처
 
-[Altema.jp](https://altema.jp/anaden/){:target= "_blank"}
-[アナデン攻略wiki](https://anaden.gorillawiki.jp/){:target= "_blank"}
-[Another Eden Wiki](https://anothereden.miraheze.org/wiki/Another_Eden_Wiki){:target= "_blank"}
+[Altema.jp](https://altema.jp/anaden/){: target="_blank"}  
+[アナデン攻略wiki](https://anaden.gorillawiki.jp/){: target="_blank"}  
+[Another Eden Wiki](https://anothereden.miraheze.org/wiki/Another_Eden_Wiki){: target="_blank"}
