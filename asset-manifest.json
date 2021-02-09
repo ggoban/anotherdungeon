@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/anotherdungeon/static/css/main.e852cae5.chunk.css",
-    "main.js": "/anotherdungeon/static/js/main.3ee96fe3.chunk.js",
-    "main.js.map": "/anotherdungeon/static/js/main.3ee96fe3.chunk.js.map",
-    "runtime-main.js": "/anotherdungeon/static/js/runtime-main.b38a25f3.js",
-    "runtime-main.js.map": "/anotherdungeon/static/js/runtime-main.b38a25f3.js.map",
-    "static/css/2.cc6972a9.chunk.css": "/anotherdungeon/static/css/2.cc6972a9.chunk.css",
-    "static/js/2.ca894cdd.chunk.js": "/anotherdungeon/static/js/2.ca894cdd.chunk.js",
-    "static/js/2.ca894cdd.chunk.js.map": "/anotherdungeon/static/js/2.ca894cdd.chunk.js.map",
-    "static/js/3.7b378d1a.chunk.js": "/anotherdungeon/static/js/3.7b378d1a.chunk.js",
-    "static/js/3.7b378d1a.chunk.js.map": "/anotherdungeon/static/js/3.7b378d1a.chunk.js.map",
-    "index.html": "/anotherdungeon/index.html",
-    "static/css/2.cc6972a9.chunk.css.map": "/anotherdungeon/static/css/2.cc6972a9.chunk.css.map",
-    "static/css/main.e852cae5.chunk.css.map": "/anotherdungeon/static/css/main.e852cae5.chunk.css.map",
-    "static/js/2.ca894cdd.chunk.js.LICENSE.txt": "/anotherdungeon/static/js/2.ca894cdd.chunk.js.LICENSE.txt"
+    "main.css": "/planet/static/css/main.78508309.chunk.css",
+    "main.js": "/planet/static/js/main.b0623978.chunk.js",
+    "main.js.map": "/planet/static/js/main.b0623978.chunk.js.map",
+    "runtime-main.js": "/planet/static/js/runtime-main.0de509c3.js",
+    "runtime-main.js.map": "/planet/static/js/runtime-main.0de509c3.js.map",
+    "static/css/2.cc6972a9.chunk.css": "/planet/static/css/2.cc6972a9.chunk.css",
+    "static/js/2.226e8464.chunk.js": "/planet/static/js/2.226e8464.chunk.js",
+    "static/js/2.226e8464.chunk.js.map": "/planet/static/js/2.226e8464.chunk.js.map",
+    "static/js/3.2cb5fc4b.chunk.js": "/planet/static/js/3.2cb5fc4b.chunk.js",
+    "static/js/3.2cb5fc4b.chunk.js.map": "/planet/static/js/3.2cb5fc4b.chunk.js.map",
+    "index.html": "/planet/index.html",
+    "static/css/2.cc6972a9.chunk.css.map": "/planet/static/css/2.cc6972a9.chunk.css.map",
+    "static/css/main.78508309.chunk.css.map": "/planet/static/css/main.78508309.chunk.css.map",
+    "static/js/2.226e8464.chunk.js.LICENSE.txt": "/planet/static/js/2.226e8464.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.b38a25f3.js",
+    "static/js/runtime-main.0de509c3.js",
     "static/css/2.cc6972a9.chunk.css",
-    "static/js/2.ca894cdd.chunk.js",
-    "static/css/main.e852cae5.chunk.css",
-    "static/js/main.3ee96fe3.chunk.js"
+    "static/js/2.226e8464.chunk.js",
+    "static/css/main.78508309.chunk.css",
+    "static/js/main.b0623978.chunk.js"
   ]
 }
