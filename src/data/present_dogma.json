@@ -1,0 +1,93 @@
+{
+    "name": "도그마의 탑",            
+    "reward": "천, 명",
+    "hard": {
+        "level": 60,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 65,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "지하 입구",
+        "jap": "地下入口"
+    }, {
+        "id":2,
+        "kor": "어두컴컴한 복도",
+        "jap": "仄暗い回廊",
+        "kor_rare": "침침한 복도",
+        "jap_rare": "幽々たる回廊"
+    }, {
+        "id":3,
+        "kor": "고요한 방",
+        "jap": "寂然の間",
+        "kor_rare": "아득한 방",
+        "jap_rare": "幽遠の間"
+    }],
+    "job": null,
+    "multiple": {
+        "character": [{
+            "name": "이루루",
+            "rate": "x1.5배" 
+        }, {
+            "name": "라디카",
+            "rate": "x1.5배" 
+        },{
+            "name": "노포우족",
+            "rate": "x1.5배" 
+        },{
+            "name": "투바",
+            "rate": "x1.2배" 
+        },{
+            "name": "브리노",
+            "rate": "x1.2배"
+        },{
+            "name": "베네디트",
+            "rate": "x1.2배"
+        },{
+            "name": "사이러스",
+            "rate": "x1.2배"
+        },{
+            "name": "파리사",
+            "rate": "x1.2배"
+        }]
+    },
+    "statusup": ["노포우족"],
+    "monster": [{
+        "id":1,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["화"],
+        "strong": ["타격"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":4,
+        "weak": ["베기", "타격", "찌르기"],
+        "strong": null,
+        "description": "FEAR"
+    }, {
+        "id":5,
+        "weak": null,
+        "strong": ["베기", "타격", "찌르기"],
+        "description": "폼 변경시"
+    }],
+    "boss": {
+        "members": [{
+            "id":1,
+            "weak": ["화"],
+            "strong": ["타격"]
+        }],
+        "description": ["물리공격시 요격 주의"]
+    },
+    "etc": ["이절 몽영 안 나옴", "마녀외전 포인트작", "FEAR는 2스테이지 레어맵에서만 나옴"]
+}

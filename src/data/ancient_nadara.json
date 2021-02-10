@@ -1,0 +1,69 @@
+{
+    "name": "나다라 화산",            
+    "reward": "천",
+    "hard": {
+        "level": 28,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 62,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "동굴 입구",
+        "jap": "洞口部"
+    }, {
+        "id":2,
+        "kor": "강적의 근거지",
+        "jap": "強敵の巣",
+        "kor_rare": "희귀종의 근거지",
+        "jap_rare": "希少種の巣"
+    }, {
+        "id":3,
+        "kor": "보물회랑",
+        "jap": "宝物回廊",
+        "kor_rare": "비보회랑",
+        "jap_rare": "秘宝回廊"
+    }],
+    "job": [{"name": "라클레어", "kor": "민스트럴", "jap": "ミンストレル"},
+            {"name": "가리유", "kor": "플레임 로드", "jap": "フレイムロード"},
+            {"name": "메리나", "kor": "말아흐", "jap": "マルアハ"},
+            {"name": "라디카", "kor": "디비네이터", "jap": "ディヴィネーター"},
+            {"name": "로제타", "kor": "저지먼트", "jap": "ジャッジメント"},
+            {"name": "러블리", "kor": "러블리 셰프", "jap": "ラブリーシェフ"},
+            {"name": "틸릴", "kor": "어비스 데보티", "jap": "アビスデボーテ"},
+            {"name": "이웨라", "kor": "라즈루미디아", "jap": "ラズルミーディア"}],
+    "statusup": null,
+    "monster": [{
+        "id":1,
+        "weak": ["수"],
+        "strong": ["찌르기","화"],
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["수"],
+        "strong": ["화"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": ["수"],
+        "strong": ["화"],
+        "description": ""
+    }, {
+        "id":4,
+        "weak": ["수"],
+        "strong": ["화"],
+        "description": "FEAR"
+    }],
+    "boss": {
+        "members": [{
+            "id":1,
+            "weak": ["수"],
+            "strong": ["화(흡수)", "풍"]
+        }],
+        "description": ["내성 정보는 Very Hard 기준"] 
+    },
+    "etc": ["없음"],
+    "dream": true
+}

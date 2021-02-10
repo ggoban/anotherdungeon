@@ -1,0 +1,79 @@
+{
+    "name": "식인 늪",            
+    "reward": "명",
+    "hard": {
+        "level": 33,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 64,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "종유동굴 입구",
+        "jap": "鍾乳洞口"
+    }, {
+        "id":2,
+        "kor": "강자의 길",
+        "jap": "強者の道",
+        "kor_rare": "정복자의 길",
+        "jap_rare": "覇者の道"
+    }, {
+        "id":3,
+        "kor": "혼돈의 옛터",
+        "jap": "混沌の跡地",
+        "kor_rare": "영광의 옛터",
+        "jap_rare": "栄光の跡地"
+    }],
+    "job": [{"name": "사이러스", "kor": "브레이브 스톰", "jap": "ブレイブストーム"},
+            {"name": "투바", "kor": "지오맨서", "jap": "ジオマンサー"},
+            {"name": "유나", "kor": "무녀", "jap": "カンナギ"},
+            {"name": "나기", "kor": "팔지 사신", "jap": "エイトマーダー"},
+            {"name": "베이나", "kor": "아우라", "jap": "アウラ"},
+            {"name": "티라미수", "kor": "드래곤 룰러", "jap": "ドラゴンルーラー"},
+            {"name": "미스트레아", "kor": "이사야", "jap": "イザヤ"},
+            {"name": "미르샤", "kor": "에페파네노스", "jap": "エッフェパネノス"}],
+    "statusup": ["사이러스"],
+    "monster": [{
+        "id":1,
+        "weak": ["지"],
+        "strong": ["수"],
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["수"],
+        "strong": ["화"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": ["화"],
+        "strong": ["풍"],
+        "description": ""
+    }, {
+        "id":4,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":5,
+        "weak": ["지"],
+        "strong": ["수"],
+        "description": ""
+    }, {
+        "id":6,
+        "weak": ["지"],
+        "strong": ["수"],
+        "description": "FEAR"
+    }],
+    "boss": {
+        "members": [{
+            "id":1,
+            "weak": ["지"],
+            "strong": ["화", "수"]
+        }],
+        "description": ["내성 정보는 Very Hard 기준"] 
+    },
+    "etc": ["없음"],
+    "dream": true
+}

@@ -1,0 +1,82 @@
+{
+    "name": "고대 제르베리야 뇌",            
+    "reward": "천, 명",
+    "veryhard": {
+        "level": 80,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "맵1",
+        "jap": "雷鳴地域"
+    }, {
+        "id":2,
+        "kor": "맵2",
+        "jap": "閃電地域",
+        "kor_rare": "맵2 레어",
+        "jap_rare": "秘境地域"
+    }, {
+        "id":3,
+        "kor": "맵3",
+        "jap": "石層地帯",
+        "kor_rare": "맵3 레어",
+        "jap_rare": "神聖地帯"
+    }],
+    "job": [{"name": "메리나", "kor": "말아흐", "jap": "マルアハ"},
+            {"name": "미스트레아", "kor": "이사야", "jap": "イザヤ"},
+            {"name": "틸릴", "kor": "어비스 데보티", "jap": "アビスデボーテ"},
+            {"name": "로제타", "kor": "저지먼트", "jap": "ジャッジメント"},
+            {"name": "미르샤", "kor": "에페파네노스", "jap": "エッフェパネノス"}],
+    "statusup": ["클라르테"],
+    "monster": [{
+        "id":1,
+        "weak": ["음"],
+        "strong": null,
+        "description": ""
+    }, {
+        "id":2,
+        "weak": null,
+        "strong": ["마법"],
+        "description": ""
+    }, {
+        "id":3,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":4,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":5,
+        "weak": ["음", "타격"],
+        "strong": null,
+        "description": ""
+    }, {
+        "id":6,
+        "weak": ["화"],
+        "strong": null,
+        "description": ""
+    }, {
+        "id":7,
+        "weak": ["음"],
+        "strong": null,
+        "description": "FEAR"
+    }, {
+        "id":8,
+        "weak": ["음", "타격"],
+        "strong": null,
+        "description": "FEAR"
+    }],
+    "boss": {
+        "members": [{
+            "id":1,
+            "weak": ["음"],
+            "strong": ["뇌(흡수)"]
+        }],
+        "description": ["50% 이하 패턴변화", "마법공격 위주 패턴"]
+    },
+    "etc": ["이절 몽영 나옴", "아주르 무기 3종 제작/강화(뇌속성무기)"],
+    "dream": true
+}

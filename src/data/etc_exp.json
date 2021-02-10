@@ -1,0 +1,54 @@
+{
+    "name": "봉역 어렴풋한 시각의 틈새",            
+    "reward": "천, 명",
+    "hard": {
+        "level": 25,
+        "count": "0 / 16 / 32"
+    },
+    "veryhard": {
+        "level": 60,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "어렴풋한 시간의 틈새",
+        "jap": "玉響なる刻の間"
+    }],
+    "job": null,
+    "statusup": null,
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기", "타격"],
+        "strong": null,
+        "description": ""
+    }, {
+        "id":2,
+        "weak": ["베기", "마법"],
+        "strong": null,
+        "description": ""
+    }, {
+        "id":3,
+        "weak": ["베기", "타격"],
+        "strong": null,
+        "description": ""
+    }, {
+        "id":4,
+        "weak": ["찌르기", "타격"],
+        "strong": null,
+        "description": "FEAR"
+    },  {
+        "id":5,
+        "weak": ["베기", "타격"],
+        "strong": null,
+        "description": "FEAR"
+    }],
+    "boss": {
+        "members": [{
+            "id":1,
+            "weak": ["풍", "지", "화", "수"],
+            "strong": null
+        }],
+        "description": ["순서대로 약점이 바뀜", "(첫 턴에 풍속 약점, 2번째 턴에 지속 약점...)"] 
+    },
+    "etc": ["경험치 대량 획득 가능", "이절 드랍됨"]
+}

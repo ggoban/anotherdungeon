@@ -1,0 +1,79 @@
+{
+    "name": "차원전함",            
+    "reward": "천",
+    "hard": {
+        "level": 52,
+        "count": "0 / 24 / 96"
+    },
+    "veryhard": {
+        "level": 70,
+        "count": "24 / 60 / 120"
+    },
+    "map": [{
+        "id":1,
+        "kor": "진입구",
+        "jap": "突入口"
+    }, {
+        "id":2,
+        "kor": "선수 입구",
+        "jap": "船首フロア",
+        "kor_rare": "측방 감시층",
+        "jap_rare": "側方監視フロア"
+    }, {
+        "id":3,
+        "kor": "방어 구역",
+        "jap": "防衛区画",
+        "kor_rare": "격납 구역",
+        "jap_rare": "格納区画"
+    }],
+    "job": [{"name": "이프", "kor": "브링로트", "jap": "ブリオングロード"},
+            {"name": "마리엘", "kor": "하이어로팬트", "jap": "ハイエロファント"},
+            {"name": "유인", "kor": "네고시에이터", "jap": "ネゴシエーター"},
+            {"name": "셰이네", "kor": "아크 나이트", "jap": "アークナイト"},
+            {"name": "섀넌", "kor": "화이트 나이트", "jap": "ホワイトナイト"},
+            {"name": "이루루", "kor": "그림 리퍼", "jap": "グリムリーパー"},
+            {"name": "헬레나", "kor": "제노레기온", "jap": "ゼノレギオン"},
+            {"name": "하디", "kor": "그레이 하운드", "jap": "グレイハウンド"}],
+    "statusup": ["헬레나"],
+    "monster": [{
+        "id":1,
+        "weak": ["찌르기", "풍"],
+        "strong": ["지"],
+        "description": ""
+    }, {
+        "id":2,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":3,
+        "weak": null,
+        "strong": null,
+        "description": ""
+    }, {
+        "id":4,
+        "weak": ["타격"],
+        "strong": null,
+        "description": ""
+    },  {
+        "id":5,
+        "weak": null,
+        "strong": null,
+        "description": "FEAR"
+    }, {
+        "id":6,
+        "weak": ["찌르기", "풍"],
+        "strong": ["지"],
+        "description": "RARE FEAR"
+    }],
+    "boss": {
+        "members": [{
+            "id":1,
+            "weak": ["지"],
+            "strong": ["화", "수"]
+        }],
+        "description": ["내성 정보는 Very Hard 기준"] 
+    },
+    "etc": ["없음"],
+    "dream": true
+}
