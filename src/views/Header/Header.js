@@ -2,6 +2,12 @@ import { Tooltip } from 'antd'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+/*-- 
+SPDX-FileCopyrightText: © 2021 Hyun Uk Lee <as0266@naver.com>
+
+SPDX-License-Identifier: MIT
+--*/  
+
 function Header() {
     return (
         <div>
@@ -16,8 +22,3 @@ function Header() {
 
 export default Header
 
-/*-- 
-SPDX-FileCopyrightText: © 2021 Hyun Uk Lee <as0266@naver.com>
-
-SPDX-License-Identifier: MIT
---*/  

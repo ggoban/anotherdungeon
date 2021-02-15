@@ -5,6 +5,7 @@ import {Row, Col, Typography, Tooltip, Divider} from "antd";
 import './DungeonPage.css';
 import {withRouter} from "react-router-dom";
 import Footer from "../Footer/Footer";
+import DungeonInfo from '../utils/DungeonInfo';
 
 const {Title} = Typography;
 
@@ -29,31 +30,14 @@ function DungeonPage() {
             <div className="container">
             <Row>
                 <Col xs={24} md={12}>
-                    <div className="left">
-                        <Divider style={{fontSize:"2rem"}}>{dungeon.name}</Divider>
-                        <div className="left-profile">
-                            권장레벨 : <b className="green">
-                                {dungeon.hard ? dungeon.hard.level : "X"}
-                            </b> / <b className="red">
-                                {dungeon.veryhard ? dungeon.veryhard.level : "X"}
-                            </b>
-                        </div>
-                        <div className="left-profile">
-                            3번째 칸 : {dungeon.reward}
-                        </div>
-                        <div className="left-profile">
-                            <b className="green">Hard</b> : {dungeon.hard ? dungeon.hard.count : "없음"}
-                        </div>
-                        <div className="left-profile">
-                            <b className="red">Very Hard</b> : {dungeon.veryhard ? dungeon.veryhard.count : "없음"}
-                        </div>
+                        <DungeonInfo dungeon={dungeon}/>
                         {dungeon.map.map((map, index) => (
                             <div className="left-map" key={index}>
                                 <Divider style={{fontSize:"1.8rem"}}>Map {map.id}</Divider>
-                                <div className="left-map-name" style={{fontSize:"1.4rem"}}>
+                                <div style={{fontSize:"1.4rem"}}>
                                     {language === "kor" ? map.kor : map.jap}
                                 </div>
-                                <div className="left-map-name" style={{fontSize:"1.4rem"}}>
+                                <div style={{fontSize:"1.4rem"}}>
                                     <b className="red">
                                         {map.kor_rare ? (language === "kor" ? map.kor_rare : map.jap_rare) : "레어맵 없음"}
                                     </b>
@@ -61,7 +45,6 @@ function DungeonPage() {
                                 <img alt={map.kor} style={{ width: "90%"}} src={`images/map_photo/${dungeon.name}-${map.id}.jpg`}/>
                             </div>
                         ))}
-                    </div>
                 </Col>
                 <Col xs={24} md={12}>
                     <div className="right">
@@ -182,13 +165,11 @@ function DungeonPage() {
                             {dungeon.etc.map((etc, index) =>( 
                                 <Title level={5} key={index}>{etc}</Title>
                             ))}
-                        
                     </div>
                 </Col>
             </Row>
             </div>
             <Footer/>
-            
         </div>
     )
 }

@@ -4,6 +4,7 @@ import {Row, Col, Typography, Button, Divider, Tooltip, Card} from "antd";
 import {withRouter} from "react-router-dom";
 import NavBarGarul from '../NavBar/NavBarGarul';
 import Footer from "../Footer/Footer";
+import DungeonInfo from '../utils/DungeonInfo';
 
 const {Title} = Typography;
 
@@ -37,19 +38,7 @@ function EtcPage() {
                 <div className="container">
                     <Row justify="center">
                         <Col xs={24} sm={16}>
-                            <Title level={2}>{garul_time.name}</Title>
-                            <br/>
-                            <div className="left-profile">
-                                권장레벨 : <b className="green">
-                                    {garul_time.hard ? garul_time.hard.level : "X"}
-                                </b>
-                            </div>
-                            <div className="left-profile">
-                                3번째 칸 : {garul_time.reward}
-                            </div>
-                            <div className="left-profile">
-                                <b className="green">Hard</b> : {garul_time.hard ? garul_time.hard.count : "없음"}
-                            </div>
+                            <DungeonInfo dungeon={garul_time}/>
                         </Col>
                         <Col xs={24} sm={8}>
                             <Divider orientation="center" style={{fontSize:"1.4rem"}}>천명작</Divider>
