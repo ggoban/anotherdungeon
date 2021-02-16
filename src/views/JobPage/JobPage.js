@@ -58,8 +58,8 @@ function JobPage() {
                 </div>
                 <div>
                     {filtered.filter(element => (element.job.filter(e => e.name.includes(list.name)).length !== 0))
-                        .map(a => (
-                        <Link to="/dungeon">
+                        .map((a,index) => (
+                        <Link to="/dungeon" key={index}>
                             <Button style={{fontSize: "12px"}} onClick={HandleLink}>{a.name}</Button>
                         </Link>
                     ))}

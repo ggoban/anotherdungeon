@@ -19,7 +19,7 @@ function Mainpage() {
     return (
         <div style={{paddingTop: "4rem"}} className="container">
             <Row align="middle">
-                {menus.map(menu => ( <MenuBar menu={menu}/>))}
+                {menus.map((menu, index) => ( <MenuBar key={index} menu={menu}/>))}
             </Row>
             <br/>
             <h2><b>이경은 (정말로) 추가 예정이 없습니다.</b></h2>
